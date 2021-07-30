@@ -1,7 +1,7 @@
 syntax = "proto3";
 package common;
 
-option go_package = "github.com/rob-woerner/protos/common";
+option go_package = "github.com/rob-woerner/protos/protobuf/common";
 
 enum AgentState {
   LOGGED_OUT = 0;

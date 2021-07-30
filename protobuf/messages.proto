@@ -4,7 +4,7 @@ import "common.proto";
 
 package messages;
 
-option go_package = "github.com/rob-woerner/protos/messages";
+option go_package = "github.com/rob-woerner/protos/protobuf/messages";
 
 message AgentRequest {
   string name = 1;
