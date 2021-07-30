@@ -1,0 +1,19 @@
+syntax = "proto3";
+package common;
+
+option go_package = "github.com/rob-woerner/protos/common";
+
+enum AgentState {
+  LOGGED_OUT = 0;
+  AVAILABLE = 1;
+  UNAVAILABLE = 2;
+  INBOUND_CONTACT = 3;
+  OUTBOUND_CONTACT = 4;
+  INBOUND_CONSULT = 5;
+  OUTBOUND_CONSULT = 6;
+  DIALER = 7;
+  LOGGED_IN = 8;
+  BEGIN_VC = 9;
+  INBOUND_PENDING = 10;
+  OUTBOUND_PENDING = 11;
+}

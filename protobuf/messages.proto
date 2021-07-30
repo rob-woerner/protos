@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "common.proto";
+
+package messages;
+
+option go_package = "github.com/rob-woerner/protos/messages";
+
+message AgentRequest {
+  string name = 1;
+  common.AgentState state = 2;
+}
