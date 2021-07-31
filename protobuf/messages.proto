@@ -2,11 +2,11 @@ syntax = "proto3";
 
 import "common.proto";
 
-package protobuf.messages;
+package messages;
 
-option go_package = "github.com/rob-woerner/protos/pb/messages";
+option go_package = "messages";
 
-message AgentRequest {
+message MyRequest {
   string name = 1;
-  common.AgentState state = 2;
+  common.MyState state = 2;
 }

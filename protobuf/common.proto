@@ -1,9 +1,9 @@
 syntax = "proto3";
 package common;
 
-option go_package = "github.com/rob-woerner/protos/pb/common";
+option go_package = "common";
 
-enum AgentState {
+enum MyState {
   LOGGED_OUT = 0;
   AVAILABLE = 1;
   UNAVAILABLE = 2;
