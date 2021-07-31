@@ -1,7 +1,8 @@
 syntax = "proto3";
 package common;
 
-option go_package = "common";
+//option go_package = "common";
+option go_package = "github.com/rob-woerner/protos/common";
 
 enum MyState {
   LOGGED_OUT = 0;
