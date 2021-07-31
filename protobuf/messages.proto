@@ -2,9 +2,9 @@ syntax = "proto3";
 
 import "common.proto";
 
-package messages;
+package protobuf.messages;
 
-option go_package = "github.com/rob-woerner/protos/messages";
+option go_package = "github.com/rob-woerner/protos/pb/messages";
 
 message AgentRequest {
   string name = 1;
