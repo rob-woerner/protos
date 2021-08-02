@@ -7,6 +7,5 @@ package messages;
 option go_package = "github.com/rob-woerner/protos";
 
 message MyRequest {
-  string name = 1;
-  common.MyState state = 2;
+  common.MyState state = 1;
 }

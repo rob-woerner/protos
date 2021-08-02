@@ -5,6 +5,4 @@ option go_package = "github.com/rob-woerner/protos";
 
 enum MyState {
   LOGGED_OUT = 0;
-  AVAILABLE = 1;
-  UNAVAILABLE = 2;
 }
