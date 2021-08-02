@@ -4,7 +4,7 @@ import "common.proto";
 
 package messages;
 
-option go_package = "github.com/rob-woerner/protos/messages";
+option go_package = "github.com/rob-woerner/protos";
 
 message MyRequest {
   string name = 1;
