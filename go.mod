@@ -1,4 +1,4 @@
-module protos
+module github.com/rob-woerner
 
 go 1.16
 
