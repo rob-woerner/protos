@@ -7,7 +7,7 @@
 package messages
 
 import (
-	common "github.com/rob-woerner/protos/common"
+	common "github.com/rob-woerner/protos/some/common"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
