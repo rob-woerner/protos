@@ -1,8 +1,11 @@
-.PHONY: snusnu
+.PHONY: chubble
 MODULE="github.com/rob-woerner/protos"
 
+chubble:
+	protoc --proto_path=protobuf --go_out=./pb --go_opt=module=${MODULE} --go-grpc_out=./pb --go-grpc_opt=module=${MODULE} protobuf/*.proto
+
 snusnu:
-	protoc --include_imports --include_source_info --proto_path=protobuf --descriptor_set_out=foo.pb --go_out=./pb --go_opt=module=${MODULE} --go-grpc_out=./pb --go-grpc_opt=module=${MODULE} protobuf/*.proto
+	protoc --include_imports --include_source_info --proto_path=protobuf --descriptor_set_out=unused.pb --go_out=./pb --go_opt=module=${MODULE} --go-grpc_out=./pb --go-grpc_opt=module=${MODULE} protobuf/*.proto
 
 
 protos:
