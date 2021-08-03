@@ -3,6 +3,4 @@ package common;
 
 option go_package = "github.com/rob-woerner/protos/common;common";
 
-enum MyState {
-  LOGGED_OUT = 0;
-}
+enum MyState { LOGGED_OUT = 0; }
